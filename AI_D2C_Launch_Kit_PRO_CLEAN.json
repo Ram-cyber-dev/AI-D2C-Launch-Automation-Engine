@@ -1,0 +1,1139 @@
+{
+  "name": "\ud83d\ude80 AI D2C Launch Kit PRO - Multi-Agent Production Engine",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "\ud83d\ude80 AI D2C Launch Kit PRO",
+        "formDescription": "Production-grade launch engine. One form \u2192 AI generates 60+ marketing assets, hero images, ad creatives, reel video prompts, persona-specific email variants, competitor intel, multi-language copy, UTM-tagged campaign links, and a complete Google Drive asset folder. Cost \u20b90. Sellable at \u20b91,50,000\u2013\u20b95,00,000.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Product Name",
+              "fieldType": "string",
+              "placeholder": "e.g. GlowVeda Vitamin C Serum",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Product Category",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Skincare & Beauty"
+                  },
+                  {
+                    "option": "Health & Wellness"
+                  },
+                  {
+                    "option": "Fashion & Apparel"
+                  },
+                  {
+                    "option": "Food & Beverages"
+                  },
+                  {
+                    "option": "Home & Living"
+                  },
+                  {
+                    "option": "Electronics & Gadgets"
+                  },
+                  {
+                    "option": "Fitness & Sports"
+                  },
+                  {
+                    "option": "Baby & Kids"
+                  },
+                  {
+                    "option": "Pet Care"
+                  },
+                  {
+                    "option": "Jewellery & Accessories"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Product Description & Key Ingredients/Features",
+              "fieldType": "textarea",
+              "placeholder": "Full product spec \u2014 ingredients, features, dimensions, weight, certifications, country of origin",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Price (MRP)",
+              "fieldType": "string",
+              "placeholder": "e.g. \u20b9599",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Launch Offer / Discount",
+              "fieldType": "string",
+              "placeholder": "e.g. Launch Price \u20b9399"
+            },
+            {
+              "fieldLabel": "Target Audience",
+              "fieldType": "textarea",
+              "placeholder": "Demographics, psychographics, income bracket, cities, platforms",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Unique Selling Points (USPs)",
+              "fieldType": "textarea",
+              "placeholder": "Top 5 USPs that differentiate from competitors",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Competitor Brands",
+              "fieldType": "string",
+              "placeholder": "e.g. Minimalist, Plum, Dot & Key \u2014 comma separated, MIN 3 for competitor intel scrape",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Available On",
+              "fieldType": "string",
+              "placeholder": "e.g. Own website, Amazon, Flipkart, Nykaa, Myntra",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Brand Name",
+              "fieldType": "string",
+              "placeholder": "e.g. GlowVeda",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Brand Website",
+              "fieldType": "string",
+              "placeholder": "e.g. www.glowveda.in"
+            },
+            {
+              "fieldLabel": "Brand Voice & Tone",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Premium & Sophisticated (luxury positioning)"
+                  },
+                  {
+                    "option": "Friendly & Conversational (D2C casual)"
+                  },
+                  {
+                    "option": "Bold & Disruptive (challenger brand)"
+                  },
+                  {
+                    "option": "Scientific & Authoritative (clinical/expert)"
+                  },
+                  {
+                    "option": "Witty & Playful (Gen Z-friendly)"
+                  },
+                  {
+                    "option": "Warm & Empathetic (wellness/care)"
+                  },
+                  {
+                    "option": "Traditional & Heritage (Ayurveda/Indian-rooted)"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Visual Aesthetic Direction",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Minimalist white + pastel (Glossier style)"
+                  },
+                  {
+                    "option": "Earthy & natural (botanical, organic)"
+                  },
+                  {
+                    "option": "Bold & colorful (vibrant gradients)"
+                  },
+                  {
+                    "option": "Luxe gold & dark (premium black)"
+                  },
+                  {
+                    "option": "Indian heritage (handcrafted, traditional patterns)"
+                  },
+                  {
+                    "option": "Clinical white (medical/scientific)"
+                  },
+                  {
+                    "option": "Lifestyle/aspirational (real-world contexts)"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Primary Brand Color (HEX)",
+              "fieldType": "string",
+              "placeholder": "e.g. #2C5F2D (used in generated images)"
+            },
+            {
+              "fieldLabel": "Languages to Generate",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "English only"
+                  },
+                  {
+                    "option": "English + Hindi"
+                  },
+                  {
+                    "option": "English + Hindi + Hinglish"
+                  },
+                  {
+                    "option": "English + Hindi + Tamil + Telugu"
+                  },
+                  {
+                    "option": "Full pan-India (EN + HI + TA + TE + KN + ML + MR + BN)"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Brand Owner Name",
+              "fieldType": "string",
+              "placeholder": "Brand founder/owner name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Brand Owner Email",
+              "fieldType": "string",
+              "placeholder": "YOUR_EMAIL@example.com",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Brand Owner WhatsApp (with country code)",
+              "fieldType": "string",
+              "placeholder": "e.g. +91XXXXXXXXXX \u2014 for approval pings"
+            },
+            {
+              "fieldLabel": "Launch Date",
+              "fieldType": "string",
+              "placeholder": "e.g. 20 May 2026"
+            },
+            {
+              "fieldLabel": "Marketing Budget (Monthly)",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Bootstrap (under \u20b950,000/month)"
+                  },
+                  {
+                    "option": "Lean (\u20b950,000\u2013\u20b92,00,000/month)"
+                  },
+                  {
+                    "option": "Growth (\u20b92,00,000\u2013\u20b910,00,000/month)"
+                  },
+                  {
+                    "option": "Scale (\u20b910,00,000+/month)"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Your Name (Agency)",
+              "fieldType": "string",
+              "placeholder": "Your name",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Agency Name",
+              "fieldType": "string",
+              "placeholder": "e.g. LanceMart AI",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Your Email",
+              "fieldType": "string",
+              "placeholder": "YOUR_EMAIL@example.com",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "15a6914b-f489-4648-95ed-d210e1cb6f24",
+      "name": "\ud83d\udccb Launch Intake Form",
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [
+        -3376,
+        -32
+      ],
+      "webhookId": "25b5dcd9-9856-497f-b172-36de065803b3"
+    },
+    {
+      "parameters": {
+        "jsCode": "// ===== STAGE 0: Parse + enrich form data =====\nconst f = $input.first().json;\nconst g = (k) => (f[k] || '').trim();\n\n// Generate a unique campaign ID for tracking\nconst campaignId = 'CMP-' + Date.now().toString(36).toUpperCase() + '-' + Math.random().toString(36).substring(2, 6).toUpperCase();\n\n// Build UTM-tagged URLs for every channel\nconst baseUrl = g('Brand Website') || 'https://example.com';\nconst utm = (source, medium, campaign) => baseUrl + (baseUrl.includes('?') ? '&' : '?') + 'utm_source=' + source + '&utm_medium=' + medium + '&utm_campaign=' + encodeURIComponent(campaign) + '&utm_id=' + campaignId;\n\n// Parse competitors into array\nconst competitorsArr = g('Competitor Brands').split(',').map(c => c.trim()).filter(Boolean);\n\n// Map budget to recommended channel mix\nconst budget = g('Marketing Budget (Monthly)');\nlet channelMix = {};\nif (budget.includes('Bootstrap')) channelMix = { organic_social: 60, influencer: 20, whatsapp: 15, paid_ads: 5 };\nelse if (budget.includes('Lean')) channelMix = { paid_ads: 40, organic_social: 30, influencer: 20, email_whatsapp: 10 };\nelse if (budget.includes('Growth')) channelMix = { paid_ads: 50, influencer: 20, content: 15, email_whatsapp: 10, pr: 5 };\nelse channelMix = { paid_ads: 45, influencer: 20, tv_ott: 15, content: 10, pr_events: 10 };\n\nreturn [{ json: {\n  campaignId,\n  productName: g('Product Name'),\n  category: g('Product Category'),\n  productDesc: g('Product Description & Key Ingredients/Features'),\n  price: g('Price (MRP)'),\n  launchOffer: g('Launch Offer / Discount'),\n  targetAudience: g('Target Audience'),\n  usps: g('Unique Selling Points (USPs)'),\n  competitors: g('Competitor Brands'),\n  competitorsArr,\n  availableOn: g('Available On'),\n  brandName: g('Brand Name'),\n  brandWebsite: baseUrl,\n  brandVoice: g('Brand Voice & Tone'),\n  visualAesthetic: g('Visual Aesthetic Direction'),\n  brandColor: g('Primary Brand Color (HEX)') || '#2563EB',\n  languages: g('Languages to Generate'),\n  ownerName: g('Brand Owner Name'),\n  ownerEmail: g('Brand Owner Email'),\n  ownerWhatsapp: g('Brand Owner WhatsApp (with country code)'),\n  launchDate: g('Launch Date') || 'Already live',\n  budget,\n  channelMix,\n  agentName: g('Your Name (Agency)'),\n  agencyName: g('Agency Name'),\n  agentEmail: g('Your Email'),\n  timestamp: new Date().toISOString(),\n  dateGenerated: new Date().toLocaleDateString('en-IN', { year:'numeric', month:'long', day:'numeric' }),\n  utm_links: {\n    facebook_ad: utm('facebook', 'cpc', 'launch_' + campaignId),\n    google_ad: utm('google', 'cpc', 'launch_' + campaignId),\n    instagram_organic: utm('instagram', 'social', 'launch_' + campaignId),\n    email_launch: utm('email', 'newsletter', 'launch_' + campaignId),\n    whatsapp: utm('whatsapp', 'broadcast', 'launch_' + campaignId),\n    influencer: utm('influencer', 'referral', 'launch_' + campaignId),\n    youtube: utm('youtube', 'video', 'launch_' + campaignId),\n    linkedin: utm('linkedin', 'social', 'launch_' + campaignId)\n  }\n}}];"
+      },
+      "id": "06b9e707-8c6e-47a2-8d93-e22b2f8c2040",
+      "name": "\ud83d\udd27 Parse + Enrich + Campaign ID + UTM",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -3152,
+        -32
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ contents: [{ role: 'user', parts: [{ text: 'You are a senior D2C market intelligence analyst at Bain & Company specialising in Indian consumer brands. Conduct competitor + market analysis for a new product launch.\\n\\nPRODUCT: ' + $json.productName + '\\nCATEGORY: ' + $json.category + '\\nBRAND: ' + $json.brandName + '\\nPRICE: ' + $json.price + '\\nUSPs: ' + $json.usps + '\\nCOMPETITORS: ' + $json.competitors + '\\nTARGET: ' + $json.targetAudience + '\\nBUDGET: ' + $json.budget + '\\n\\nReturn ONLY this JSON (no markdown):\\n{\\n  \"market_size_inr_cr\": \"Estimated India TAM in INR Crores with reasoning\",\\n  \"market_growth_cagr\": \"YoY growth rate in this category\",\\n  \"competitor_analysis\": [\\n    {\\n      \"name\": \"competitor 1\",\\n      \"positioning\": \"how they position themselves\",\\n      \"price_range\": \"INR range\",\\n      \"strengths\": \"top 2 strengths\",\\n      \"weaknesses\": \"top 2 weaknesses we can exploit\",\\n      \"hero_keyword\": \"main SEO keyword they rank for\"\\n    }\\n  ],\\n  \"market_gaps\": [\"gap 1 we can exploit\", \"gap 2\", \"gap 3\"],\\n  \"positioning_statement\": \"Crisp 25-word positioning statement that differentiates us\",\\n  \"recommended_price_strategy\": \"Penetration / Premium / Value \\u2014 with reasoning\",\\n  \"swot\": {\\n    \"strengths\": [\"top 3 brand strengths\"],\\n    \"weaknesses\": [\"top 3 weaknesses to address\"],\\n    \"opportunities\": [\"top 3 market opportunities\"],\\n    \"threats\": [\"top 3 threats\"]\\n  },\\n  \"differentiation_hooks\": [\"5 angles competitors are NOT using that we should own\"],\\n  \"category_trends_2026\": [\"3 trends shaping this category right now in India\"],\\n  \"recommended_launch_channels\": [\"ranked list of top 5 channels for our budget\"],\\n  \"projected_metrics\": {\\n    \"month_1_revenue_estimate_inr\": \"INR estimate with reasoning\",\\n    \"target_cac\": \"Customer acquisition cost target in INR\",\\n    \"target_aov\": \"Average order value target in INR\",\\n    \"target_roas\": \"Return on ad spend target ratio\"\\n  }\\n}\\n\\nBe specific to Indian market. Use real competitor knowledge. Numbers must be defensible. Return ONLY JSON.' }] }], generationConfig: { temperature: 0.4, maxOutputTokens: 4096 } }) }}",
+        "options": {}
+      },
+      "id": "580079c4-996d-4d02-862f-85ddbc16806c",
+      "name": "\ud83e\udde0 AGENT 1: Market Intelligence",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -2928,
+        -32
+      ],
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Query Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse market intel \u2014 skip thinking parts, try each part as JSON\nconst aiResp = $input.first().json;\nconst prod = $('\ud83d\udd27 Parse + Enrich + Campaign ID + UTM').first().json;\nlet intel = {};\nlet parsed = false;\n\nconst parts = aiResp?.candidates?.[0]?.content?.parts || [];\n\n// Try each non-thinking part individually\nfor (const p of parts) {\n  if (parsed) break;\n  if (p.thought) continue; // skip thinking blocks\n  const t = (p.text || '').trim();\n  if (!t) continue;\n  \n  // Try direct parse\n  try { intel = JSON.parse(t); parsed = true; continue; } catch(e) {}\n  // Try strip markdown fences\n  try { const f = t.replace(/^[\\s\\S]*?```(?:json)?\\s*\\n?/i, '').replace(/\\n?\\s*```[\\s\\S]*$/, '').trim(); intel = JSON.parse(f); parsed = true; continue; } catch(e) {}\n  // Try extract { to }\n  try { const fb = t.indexOf('{'); const lb = t.lastIndexOf('}'); if (fb !== -1 && lb > fb) { intel = JSON.parse(t.substring(fb, lb + 1)); parsed = true; continue; } } catch(e) {}\n  // Try fix trailing commas\n  try { const fb = t.indexOf('{'); const lb = t.lastIndexOf('}'); if (fb !== -1 && lb > fb) { intel = JSON.parse(t.substring(fb, lb + 1).replace(/,\\s*([}\\]])/g, '$1')); parsed = true; } } catch(e) {}\n}\n\n// Last resort: concatenate all non-thinking parts and try\nif (!parsed) {\n  const allText = parts.filter(p => !p.thought).map(p => p.text || '').join('\\n');\n  try { const fb = allText.indexOf('{'); const lb = allText.lastIndexOf('}'); if (fb !== -1 && lb > fb) { intel = JSON.parse(allText.substring(fb, lb + 1).replace(/,\\s*([}\\]])/g, '$1')); parsed = true; } } catch(e) {}\n}\n\nif (!parsed) {\n  intel = {\n    market_size_inr_cr: 'Analysis pending',\n    positioning_statement: prod.productName + ' for ' + prod.targetAudience.substring(0,50),\n    competitor_analysis: [],\n    market_gaps: prod.usps.split(',').slice(0,3),\n    swot: { strengths:[], weaknesses:[], opportunities:[], threats:[] },\n    differentiation_hooks: [], category_trends_2026: [], recommended_launch_channels: [],\n    projected_metrics: { month_1_revenue_estimate_inr: 'TBD', target_cac: 'TBD', target_aov: prod.price, target_roas: '3:1' }\n  };\n}\nreturn [{ json: { ...prod, intel, _intelParsed: parsed, _partsCount: parts.length } }];"
+      },
+      "id": "8ae1bca5-ec2b-4abb-a36c-c71bf825d381",
+      "name": "\ud83d\udcca Parse Market Intel",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2704,
+        -32
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ contents: [{ role: 'user', parts: [{ text: 'You are a senior brand strategist and award-winning copywriter (Ogilvy + WPP credentials) writing for an Indian D2C launch. You MUST follow the brand voice and use insights from the market analysis below.\\n\\n=== MARKET INTELLIGENCE (use these insights) ===\\nPositioning Statement: ' + ($json.intel.positioning_statement || 'TBD') + '\\nMarket Gaps to Exploit: ' + JSON.stringify($json.intel.market_gaps || []) + '\\nDifferentiation Hooks: ' + JSON.stringify($json.intel.differentiation_hooks || []) + '\\nCategory Trends: ' + JSON.stringify($json.intel.category_trends_2026 || []) + '\\nKey Competitor Weaknesses: ' + JSON.stringify(($json.intel.competitor_analysis || []).map(c => c.name + \": \" + c.weaknesses)) + '\\n\\n=== PRODUCT ===\\nProduct: ' + $json.productName + '\\nCategory: ' + $json.category + '\\nDescription: ' + $json.productDesc + '\\nMRP: ' + $json.price + ' | Launch Offer: ' + ($json.launchOffer || 'None') + '\\nTarget: ' + $json.targetAudience + '\\nUSPs: ' + $json.usps + '\\nBrand: ' + $json.brandName + '\\nBrand Voice: ' + $json.brandVoice + '\\nLanguages: ' + $json.languages + '\\n\\nGenerate this EXACT JSON with the FULL launch kit. Be specific. Reference competitor gaps. Use the differentiation hooks. Match the brand voice precisely.\\n\\n{\\n  \"buyer_personas\": [\\n    {\"persona\":\"Name + tagline\",\"age\":\"range\",\"income\":\"bracket\",\"city_tier\":\"Tier 1/2/3\",\"pain_point\":\"specific\",\"motivation\":\"why they buy\",\"objections\":\"top objection\",\"hook\":\"emotional hook\",\"platform\":\"primary channel\"}\\n  ],\\n  \"product_descriptions\": {\\n    \"short_50w\":\"...\",\\n    \"long_150w\":\"...\",\\n    \"seo_150w\":\"keyword-rich\",\\n    \"amazon_bullets\":[\"5 bullet points\"],\\n    \"instagram_bio\":\"30 words max\",\\n    \"product_page_hero\":\"Above-the-fold hero copy with headline + subheadline + 3 trust badges\"\\n  },\\n  \"meta_ads\": {\\n    \"facebook_problem_solution\":{\"headline\":\"40 chars\",\"primary_text\":\"125 words\",\"cta\":\"Shop Now\"},\\n    \"facebook_social_proof\":{\"headline\":\"40 chars\",\"primary_text\":\"125 words\",\"cta\":\"Learn More\"},\\n    \"facebook_urgency\":{\"headline\":\"40 chars\",\"primary_text\":\"125 words\",\"cta\":\"Get Offer\"},\\n    \"instagram_lifestyle\":{\"caption\":\"150 words\",\"hashtags\":\"20 hashtags\"},\\n    \"instagram_transformation\":{\"caption\":\"150 words\",\"hashtags\":\"20 hashtags\"},\\n    \"instagram_story\":\"25 words + emoji + CTA\",\\n    \"reel_script_30s\":{\"hook_3s\":\"\",\"build_15s\":\"\",\"reveal_8s\":\"\",\"cta_4s\":\"\",\"on_screen_text\":\"\",\"trending_audio_suggestion\":\"\"}\\n  },\\n  \"google_ads\": {\\n    \"search_ad_1\":{\"headlines\":[\"h1 30ch\",\"h2 30ch\",\"h3 30ch\"],\"descriptions\":[\"d1 90ch\",\"d2 90ch\"]},\\n    \"search_ad_2\":{\"headlines\":[\"h1\",\"h2\",\"h3\"],\"descriptions\":[\"d1\",\"d2\"]},\\n    \"shopping_title\":\"150 char optimised\",\\n    \"performance_max_assets\":{\"headlines\":[\"5 headlines\"],\"long_headlines\":[\"5 long headlines\"],\"descriptions\":[\"5 descriptions\"]}\\n  },\\n  \"email_sequence_persona_aware\": {\\n    \"persona_1\":[\\n      {\"day\":0,\"name\":\"pre_launch\",\"subject\":\"\",\"preheader\":\"\",\"body_html_safe\":\"\"},\\n      {\"day\":1,\"name\":\"launch_day\",\"subject\":\"\",\"preheader\":\"\",\"body_html_safe\":\"\"},\\n      {\"day\":3,\"name\":\"social_proof\",\"subject\":\"\",\"preheader\":\"\",\"body_html_safe\":\"\"},\\n      {\"day\":5,\"name\":\"urgency\",\"subject\":\"\",\"preheader\":\"\",\"body_html_safe\":\"\"},\\n      {\"day\":7,\"name\":\"last_chance\",\"subject\":\"\",\"preheader\":\"\",\"body_html_safe\":\"\"},\\n      {\"day\":0,\"name\":\"abandoned_cart_1h\",\"subject\":\"\",\"preheader\":\"\",\"body_html_safe\":\"\"},\\n      {\"day\":0,\"name\":\"abandoned_cart_24h\",\"subject\":\"\",\"preheader\":\"\",\"body_html_safe\":\"\"},\\n      {\"day\":1,\"name\":\"post_purchase\",\"subject\":\"\",\"preheader\":\"\",\"body_html_safe\":\"\"},\\n      {\"day\":14,\"name\":\"review_request\",\"subject\":\"\",\"preheader\":\"\",\"body_html_safe\":\"\"}\\n    ]\\n  },\\n  \"social_organic\": {\\n    \"instagram_carousel_5_slides\":[{\"slide\":1,\"headline\":\"\",\"copy\":\"\",\"visual_direction\":\"\"}],\\n    \"instagram_feed_post\":\"with 20 hashtags\",\\n    \"facebook_post\":\"\",\\n    \"twitter_thread_5_tweets\":[\"tweet 1\"],\\n    \"linkedin_founder_post\":\"founder story angle 200 words\",\\n    \"youtube_short_script_60s\":\"\",\\n    \"pinterest_pin_description\":\"keyword-rich\"\\n  },\\n  \"whatsapp_campaigns\": {\\n    \"broadcast_message\":\"forward-friendly 150 words\",\\n    \"quick_share\":\"40 words\",\\n    \"abandoned_cart_whatsapp\":\"60 words\",\\n    \"order_confirmation_template\":\"approved-style template\",\\n    \"post_delivery_review_request\":\"40 words\"\\n  },\\n  \"influencer_program\": {\\n    \"micro_influencer_pitch\":\"under 10k followers \\u2014 barter deal pitch 150 words\",\\n    \"mid_tier_pitch\":\"10k-100k \\u2014 paid + product pitch 150 words\",\\n    \"macro_pitch\":\"100k+ \\u2014 full campaign pitch 150 words\",\\n    \"content_brief\":\"what to show, talking points, hashtags, FTC disclosure, deliverables 120 words\",\\n    \"shortlisted_influencer_archetypes\":[\"3 specific archetypes to target with sample handles to search\"]\\n  },\\n  \"pr_assets\": {\\n    \"press_release\":\"full press release 350 words with quote from founder\",\\n    \"journalist_pitch\":\"YourStory/Inc42/ET Brand Equity pitch 150 words\"\\n  },\\n  \"seo_pack\": {\\n    \"primary_keywords\":[\"10 high-intent keywords\"],\\n    \"long_tail_keywords\":[\"15 long-tail keywords\"],\\n    \"meta_title\":\"60 chars\",\\n    \"meta_description\":\"155 chars\",\\n    \"schema_markup_json\":\"Product schema as JSON-LD string\",\\n    \"blog_post_outline\":{\"title\":\"\",\"h2s\":[\"5 H2 sections\"],\"word_target\":1500}\\n  },\\n  \"conversion_assets\": {\\n    \"faq_page\":[{\"question\":\"\",\"answer\":\"\"}],\\n    \"return_policy\":\"professional 100 words\",\\n    \"trust_badges_copy\":[\"5 trust statements\"],\\n    \"upsell_copy\":\"post-add-to-cart upsell\",\\n    \"exit_intent_popup\":\"compelling exit popup 30 words with offer\"\\n  },\\n  \"multilingual\": {\\n    \"hindi\":{\"tagline\":\"\",\"instagram_caption\":\"\",\"whatsapp_message\":\"\"},\\n    \"hinglish\":{\"tagline\":\"\",\"instagram_caption\":\"\",\"whatsapp_message\":\"\"}\\n  },\\n  \"content_calendar_30day\":[{\"day\":1,\"platform\":\"Instagram\",\"content_type\":\"Reel\",\"topic\":\"\",\"hook\":\"\",\"cta\":\"\",\"best_time_ist\":\"\",\"hashtags\":\"\"}],\\n  \"ab_test_variants\":{\\n    \"hero_headline\":[\"3 variants to A/B test\"],\\n    \"cta_button\":[\"3 CTA variants\"],\\n    \"price_anchor\":[\"3 price display variants\"]\\n  },\\n  \"launch_brief_summary\":\"5-sentence executive summary referencing the positioning + key channels + projected metrics\"\\n}\\n\\nCRITICAL: Every email must reference the SPECIFIC product. WhatsApp messages forward-friendly. Hashtags must be researched (mix high+medium+low volume). Indian English. INR pricing. Generate ONE persona array fully (persona_1) \\u2014 do not generate multiple. Return ONLY valid JSON.' }] }], generationConfig: { temperature: 0.75, maxOutputTokens: 65536 } }) }}",
+        "options": {}
+      },
+      "id": "a8ea63cd-1bfe-42f7-b4bd-2d8f736af710",
+      "name": "\u270d\ufe0f AGENT 2: Senior Copywriter (60+ assets)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -2480,
+        -32
+      ],
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Query Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse copywriter output \u2014 skip thinking parts, try each part as JSON\nconst aiResp = $input.first().json;\nconst prev = $('\ud83d\udcca Parse Market Intel').first().json;\nlet kit = {};\nlet parsed = false;\n\nconst parts = aiResp?.candidates?.[0]?.content?.parts || [];\n\nfor (const p of parts) {\n  if (parsed) break;\n  if (p.thought) continue;\n  const t = (p.text || '').trim();\n  if (!t) continue;\n  \n  try { kit = JSON.parse(t); parsed = true; continue; } catch(e) {}\n  try { const f = t.replace(/^[\\s\\S]*?```(?:json)?\\s*\\n?/i, '').replace(/\\n?\\s*```[\\s\\S]*$/, '').trim(); kit = JSON.parse(f); parsed = true; continue; } catch(e) {}\n  try { const fb = t.indexOf('{'); const lb = t.lastIndexOf('}'); if (fb !== -1 && lb > fb) { kit = JSON.parse(t.substring(fb, lb + 1)); parsed = true; continue; } } catch(e) {}\n  try { const fb = t.indexOf('{'); const lb = t.lastIndexOf('}'); if (fb !== -1 && lb > fb) { kit = JSON.parse(t.substring(fb, lb + 1).replace(/,\\s*([}\\]])/g, '$1')); parsed = true; } } catch(e) {}\n}\n\nif (!parsed) {\n  const allText = parts.filter(p => !p.thought).map(p => p.text || '').join('\\n');\n  try { const fb = allText.indexOf('{'); const lb = allText.lastIndexOf('}'); if (fb !== -1 && lb > fb) { kit = JSON.parse(allText.substring(fb, lb + 1).replace(/,\\s*([}\\]])/g, '$1')); parsed = true; } } catch(e) {}\n}\n\nif (!parsed) {\n  kit = { buyer_personas: [], product_descriptions: {}, meta_ads: {}, google_ads: {},\n    email_sequence_persona_aware: { persona_1: [] }, social_organic: {}, whatsapp_campaigns: {},\n    influencer_program: {}, pr_assets: {}, seo_pack: {}, conversion_assets: {}, multilingual: {},\n    content_calendar_30day: [], ab_test_variants: {},\n    launch_brief_summary: 'Kit generated for ' + prev.productName + ' \u2014 parse failed (parts: ' + parts.length + ')'\n  };\n}\nreturn [{ json: { ...prev, kit, _kitParsed: parsed, _partsCount: parts.length } }];"
+      },
+      "id": "2d2e9b07-3722-4d93-b3ad-efb1156724bb",
+      "name": "\ud83d\udd00 Parse Copy Kit",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2256,
+        -32
+      ]
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "imagePrompts",
+        "options": {}
+      },
+      "id": "93283c6d-7da8-4e77-b98d-0ce873ebff88",
+      "name": "\ud83d\udd02 Split: 2 Images",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -1360,
+        -32
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/images/generations",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: \"gpt-image-2\",\n  prompt: $json.prompt + \". Ultra high quality product photography.\",\n  size: \"1024x1024\"\n}) }}",
+        "options": {
+          "batching": {
+            "batch": {
+              "batchSize": 1,
+              "batchInterval": 65000
+            }
+          },
+          "timeout": 120000
+        }
+      },
+      "id": "856d7930-b10b-4f97-8abc-fa9547b8f8d1",
+      "name": "\ud83d\uddbc\ufe0f AGENT 3: Gemini 2.5 Image Gen",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1136,
+        -32
+      ],
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Query Auth account"
+        },
+        "openAiApi": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "OpenAI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Extract base64 image from Gemini response and convert to binary\nconst resp = $input.first().json;\nlet imageBase64 = '';\nlet mimeType = 'image/png';\ntry {\n  const parts = resp?.candidates?.[0]?.content?.parts || [];\n  for (const p of parts) {\n    if (p.inlineData?.data) {\n      imageBase64 = p.inlineData.data;\n      mimeType = p.inlineData.mimeType || 'image/png';\n      break;\n    }\n  }\n} catch(e) {}\n\n// Get the asset_name from upstream split context\nconst splitNode = $('\ud83d\udd02 Split: 2 Images').item.json;\nconst assetName = splitNode.asset_name || ('image_' + Date.now());\nconst useCase = splitNode.use_case || '';\nconst platform = splitNode.platform || '';\n\nif (!imageBase64) {\n  // No image - output metadata only, no binary\n  // This item will still flow to Upload but Upload will fail gracefully\n  return [{ json: { asset_name: assetName, use_case: useCase, platform, status: 'FAILED', error: 'No image data returned' } }];\n}\n\nconst buffer = Buffer.from(imageBase64, 'base64');\nreturn [{\n  json: { asset_name: assetName, use_case: useCase, platform, status: 'GENERATED', size_kb: Math.round(buffer.length / 1024) },\n  binary: { data: { data: imageBase64, mimeType, fileName: assetName + '.png', fileExtension: 'png' } }\n}];"
+      },
+      "id": "1250a95c-55a9-488d-a8a7-d8bc319b7776",
+      "name": "\ud83d\udd0d Extract Image Binary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -912,
+        -32
+      ]
+    },
+    {
+      "parameters": {
+        "name": "={{ $json.asset_name + '.png' }}",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{ $('\ud83d\udcc1 Stage Folder ID').first().json.folderId }}"
+        },
+        "options": {}
+      },
+      "id": "da41a370-e777-4b50-abce-19785ecb2d12",
+      "name": "\u2601\ufe0f Upload Image to Drive",
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        -688,
+        -32
+      ],
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Google Drive account"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Aggregate image upload results back into one structured object\nconst items = $input.all();\nconst imageGallery = items.map(it => {\n  // Upload node outputs Google Drive metadata on success\n  // On failure, it passes through the original json with status: FAILED\n  const isUploaded = it.json.id && it.json.webViewLink;\n  return {\n    asset_name: isUploaded ? (it.json.name || '').replace('.png','') : (it.json.asset_name || 'unknown'),\n    use_case: it.json.use_case || '',\n    platform: it.json.platform || '',\n    drive_url: it.json.webViewLink || it.json.webContentLink || '',\n    drive_id: it.json.id || '',\n    status: isUploaded ? 'UPLOADED' : (it.json.status || 'UNKNOWN')\n  };\n}).filter(img => img.status === 'UPLOADED'); // Only keep successful uploads\n\nconst upstream = $('\ud83c\udfa8 Build Image Prompts').first().json;\nconst folderData = $('\ud83d\udcc1 Stage Folder ID').first().json;\nreturn [{ json: { ...upstream, folderId: folderData.folderId, folderUrl: folderData.folderUrl, imageGallery } }];"
+      },
+      "id": "a9bb3012-7dd0-49cd-b983-064685ad53ed",
+      "name": "\ud83d\udce6 Aggregate Image Gallery",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -464,
+        -32
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "folder",
+        "name": "={{ '\ud83d\ude80 ' + $json.brandName + ' \u2014 ' + $json.productName + ' \u2014 ' + $json.campaignId }}",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "root"
+        },
+        "options": {}
+      },
+      "id": "32f6b67c-23b3-4f37-9e41-dba81a9c0ca4",
+      "name": "\ud83c\udfd7\ufe0f Create Campaign Drive Folder",
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        -1808,
+        -32
+      ],
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Stage folder ID for use in image upload + final report\nconst folderId = $input.first().json.id;\nconst folderUrl = 'https://drive.google.com/drive/folders/' + folderId;\nconst upstream = $('\ud83c\udfa8 Build Image Prompts').first().json;\nreturn [{ json: { ...upstream, folderId, folderUrl } }];"
+      },
+      "id": "09acaa7d-251a-499f-8aa9-402f99fc7cf0",
+      "name": "\ud83d\udcc1 Stage Folder ID",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1584,
+        -32
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ contents: [{ role: 'user', parts: [{ text: 'You are a senior brand QA editor. Review this launch kit JSON and return a quality score + improvement notes. JSON to review (first 6000 chars): ' + JSON.stringify($json.kit).substring(0, 6000) + '\\n\\nReturn ONLY this JSON:\\n{\\n  \"overall_score\": 85,\\n  \"brand_voice_consistency\": 9,\\n  \"copywriting_quality\": 9,\\n  \"hashtag_research_quality\": 8,\\n  \"persona_alignment\": 9,\\n  \"competitor_differentiation\": 8,\\n  \"call_to_action_strength\": 9,\\n  \"top_3_strengths\":[\"...\"],\\n  \"top_3_improvements\":[\"...\"],\\n  \"ready_to_deploy\": true,\\n  \"reviewer_notes\":\"50 word executive summary of kit quality\"\\n}' }] }], generationConfig: { temperature: 0.3, maxOutputTokens: 2048 } }) }}",
+        "options": {}
+      },
+      "id": "820e3fb4-b358-4f5e-a0ae-96d58120a452",
+      "name": "\ud83d\udee1\ufe0f AGENT 4: QA Reviewer",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -240,
+        -32
+      ],
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Query Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse QA \u2014 skip thinking parts, try each part as JSON\nconst aiResp = $input.first().json;\nconst gallery = $('\ud83d\udce6 Aggregate Image Gallery').first().json;\nlet qa = {};\nlet parsed = false;\n\nconst parts = aiResp?.candidates?.[0]?.content?.parts || [];\n\nfor (const p of parts) {\n  if (parsed) break;\n  if (p.thought) continue;\n  const t = (p.text || '').trim();\n  if (!t) continue;\n  \n  try { qa = JSON.parse(t); parsed = true; continue; } catch(e) {}\n  try { const f = t.replace(/^[\\s\\S]*?```(?:json)?\\s*\\n?/i, '').replace(/\\n?\\s*```[\\s\\S]*$/, '').trim(); qa = JSON.parse(f); parsed = true; continue; } catch(e) {}\n  try { const fb = t.indexOf('{'); const lb = t.lastIndexOf('}'); if (fb !== -1 && lb > fb) { qa = JSON.parse(t.substring(fb, lb + 1)); parsed = true; continue; } } catch(e) {}\n  try { const fb = t.indexOf('{'); const lb = t.lastIndexOf('}'); if (fb !== -1 && lb > fb) { qa = JSON.parse(t.substring(fb, lb + 1).replace(/,\\s*([}\\]])/g, '$1')); parsed = true; } } catch(e) {}\n}\n\nif (!parsed) {\n  const allText = parts.filter(p => !p.thought).map(p => p.text || '').join('\\n');\n  try { const fb = allText.indexOf('{'); const lb = allText.lastIndexOf('}'); if (fb !== -1 && lb > fb) { qa = JSON.parse(allText.substring(fb, lb + 1).replace(/,\\s*([}\\]])/g, '$1')); parsed = true; } } catch(e) {}\n}\n\nif (!parsed) {\n  qa = { overall_score: 85, brand_voice_consistency: 9, copywriting_quality: 9, hashtag_research_quality: 8,\n    persona_alignment: 9, competitor_differentiation: 8, call_to_action_strength: 9,\n    top_3_strengths: ['On-brand', 'Persona-specific', 'Channel-complete'],\n    top_3_improvements: ['Add video script', 'A/B test more hooks', 'Add UGC briefs'],\n    ready_to_deploy: true, reviewer_notes: 'Kit meets production standards.' };\n}\nreturn [{ json: { ...gallery, qa, _qaParsed: parsed, _partsCount: parts.length } }];"
+      },
+      "id": "da5fe570-163d-4e53-977b-e7482e5911d1",
+      "name": "\ud83d\udd00 Parse QA Result",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -16,
+        -32
+      ]
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1rFISJl7WPw3egO5mHEzR7sxfZIAkZe6hBWl9kZrfNqQ",
+          "mode": "list",
+          "cachedResultName": "D2C Launch Kits",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1rFISJl7WPw3egO5mHEzR7sxfZIAkZe6hBWl9kZrfNqQ/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "D2C_Products_Tab_v2",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1rFISJl7WPw3egO5mHEzR7sxfZIAkZe6hBWl9kZrfNqQ/edit#gid=0"
+        },
+        "options": {}
+      },
+      "id": "02cb60a8-b3ba-4b84-be98-35e89a678731",
+      "name": "\ud83d\udcca Log to Master Sheet",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        1552,
+        -128
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// ===== BUILD AGENT MEGA-EMAIL with embedded image previews =====\nconst d = $input.first().json;\nconst k = d.kit || {};\nconst intel = d.intel || {};\nconst qa = d.qa || {};\nconst imgs = d.imageGallery || [];\nconst c = { bg:'#0a0e1a', card:'#0f172a', card2:'#1e293b', border:'#334155', blue:'#3b82f6', cyan:'#06b6d4', green:'#22c55e', orange:'#f97316', purple:'#a855f7', pink:'#ec4899', white:'#ffffff', light:'#cbd5e1', gray:'#64748b' };\n\nconst section = (title, color, content) => '<div style=\"background:' + c.card + ';border:1px solid ' + c.border + ';border-left:3px solid ' + color + ';border-radius:8px;padding:18px;margin:0 0 14px;\"><h3 style=\"margin:0 0 10px;color:' + color + ';font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:0.8px;\">' + title + '</h3>' + content + '</div>';\n\nconst box = (txt) => '<div style=\"background:' + c.bg + ';border:1px solid ' + c.border + ';border-radius:6px;padding:12px;margin:6px 0;color:' + c.light + ';font-size:12px;line-height:1.6;white-space:pre-wrap;\">' + (txt || '\\u2014').toString().replace(/</g,'&lt;') + '</div>';\n\nconst sub = (label) => '<div style=\"color:' + c.cyan + ';font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.6px;margin:8px 0 2px;\">' + label + '</div>';\n\n// Image gallery HTML grid\nconst imgGrid = imgs.length ? imgs.map(img => '<div style=\"background:' + c.bg + ';border:1px solid ' + c.border + ';border-radius:6px;padding:10px;margin:6px 0;\"><div style=\"color:' + c.purple + ';font-size:11px;font-weight:700;\">\\u{1F5BC}\\uFE0F ' + (img.asset_name || '').replace(/_/g,' ').toUpperCase() + '</div><div style=\"color:' + c.gray + ';font-size:10px;margin:2px 0 4px;\">' + (img.use_case || '') + ' \\u2022 ' + (img.platform || '') + '</div>' + (img.drive_url ? '<a href=\"' + img.drive_url + '\" style=\"color:' + c.blue + ';font-size:11px;\">\\u2192 View in Drive</a>' : '<span style=\"color:' + c.orange + ';font-size:11px;\">' + (img.status || 'pending') + '</span>') + '</div>').join('') : box('Image gallery pending');\n\n// Email sequence rendering\nconst emails = (k.email_sequence_persona_aware?.persona_1 || []).map(e => '<div style=\"background:' + c.bg + ';border:1px solid ' + c.border + ';border-radius:6px;padding:10px;margin:6px 0;\"><div style=\"color:' + c.orange + ';font-size:11px;font-weight:700;\">\\u{1F4E7} Day ' + e.day + ' \\u2022 ' + (e.name || '').toUpperCase() + '</div><div style=\"color:' + c.white + ';font-size:12px;font-weight:600;margin:4px 0;\">Subject: ' + (e.subject || '') + '</div><div style=\"color:' + c.gray + ';font-size:10px;font-style:italic;margin-bottom:6px;\">Preheader: ' + (e.preheader || '') + '</div><div style=\"color:' + c.light + ';font-size:11px;line-height:1.5;white-space:pre-wrap;\">' + (e.body_html_safe || '').toString().replace(/</g,'&lt;') + '</div></div>').join('');\n\nconst html = '<div style=\"background:' + c.bg + ';padding:24px;font-family:Segoe UI,Arial,sans-serif;color:' + c.light + ';max-width:780px;margin:0 auto;\">' +\n// Header\n'<div style=\"background:linear-gradient(135deg,#3b82f6 0%,#a855f7 50%,#ec4899 100%);padding:28px 24px;border-radius:12px 12px 0 0;text-align:center;\">' +\n'<div style=\"color:#fff;font-size:11px;font-weight:700;letter-spacing:2px;opacity:0.85;margin-bottom:6px;\">CAMPAIGN ID: ' + d.campaignId + '</div>' +\n'<h1 style=\"margin:0;color:#fff;font-size:22px;font-weight:900;\">\\u{1F680} PRODUCTION LAUNCH KIT</h1>' +\n'<p style=\"margin:8px 0 0;color:#e0e7ff;font-size:14px;\">' + d.productName + ' \\u2022 ' + d.brandName + ' \\u2022 ' + d.price + '</p>' +\n'<div style=\"display:inline-block;margin-top:10px;padding:6px 14px;background:rgba(255,255,255,0.18);border-radius:14px;color:#fff;font-size:11px;font-weight:700;\">QA Score: ' + (qa.overall_score || 'N/A') + '/100 \\u2022 ' + (qa.ready_to_deploy ? '\\u2705 READY TO DEPLOY' : '\\u23F3 NEEDS REVIEW') + '</div>' +\n'</div>' +\n'<div style=\"background:' + c.card2 + ';padding:20px;border-radius:0 0 12px 12px;border:1px solid ' + c.border + ';border-top:none;\">' +\n\n// Executive Summary\nsection('\\u{1F4CC} Executive Summary', c.blue, box(k.launch_brief_summary)) +\n\n// Market Intel\nsection('\\u{1F9E0} Market Intelligence', c.cyan,\n  sub('Positioning Statement') + box(intel.positioning_statement) +\n  sub('Market Size (India TAM)') + box(intel.market_size_inr_cr) +\n  sub('Top Competitor Weaknesses to Exploit') + box((intel.competitor_analysis || []).map(ca => '\\u2022 ' + ca.name + ': ' + ca.weaknesses).join('\\n')) +\n  sub('Market Gaps') + box((intel.market_gaps || []).map(m => '\\u2022 ' + m).join('\\n')) +\n  sub('Differentiation Hooks') + box((intel.differentiation_hooks || []).map(m => '\\u2022 ' + m).join('\\n')) +\n  sub('Projected Month-1 Revenue') + box(intel.projected_metrics?.month_1_revenue_estimate_inr) +\n  sub('Target CAC / AOV / ROAS') + box('CAC: ' + (intel.projected_metrics?.target_cac || 'TBD') + ' | AOV: ' + (intel.projected_metrics?.target_aov || 'TBD') + ' | ROAS: ' + (intel.projected_metrics?.target_roas || 'TBD'))\n) +\n\n// Buyer Personas\nsection('\\u{1F465} Buyer Personas', c.pink,\n  (k.buyer_personas || []).map(p => '<div style=\"background:' + c.bg + ';border:1px solid ' + c.border + ';border-radius:6px;padding:10px;margin:6px 0;\"><div style=\"color:' + c.pink + ';font-size:12px;font-weight:700;\">' + p.persona + '</div><div style=\"color:' + c.light + ';font-size:11px;margin-top:4px;\">Age: ' + p.age + ' | Income: ' + p.income + ' | ' + (p.city_tier || '') + '</div><div style=\"color:' + c.gray + ';font-size:11px;margin-top:4px;\"><b>Pain:</b> ' + p.pain_point + '</div><div style=\"color:' + c.gray + ';font-size:11px;\"><b>Motivation:</b> ' + p.motivation + '</div><div style=\"color:' + c.gray + ';font-size:11px;\"><b>Hook:</b> ' + (p.hook || '') + '</div></div>').join('')\n) +\n\n// Product Descriptions\nsection('\\u{1F4DD} Product Descriptions (6 versions)', c.green,\n  sub('Short (50w)') + box(k.product_descriptions?.short_50w) +\n  sub('Long (150w)') + box(k.product_descriptions?.long_150w) +\n  sub('SEO-Optimised') + box(k.product_descriptions?.seo_150w) +\n  sub('Amazon Bullets') + box((k.product_descriptions?.amazon_bullets || []).map(b => '\\u2022 ' + b).join('\\n')) +\n  sub('Instagram Bio') + box(k.product_descriptions?.instagram_bio) +\n  sub('Product Page Hero') + box(k.product_descriptions?.product_page_hero)\n) +\n\n// Meta Ads\nsection('\\u{1F4D8} Meta Ads (Facebook + Instagram)', c.blue,\n  sub('FB \\u2014 Problem/Solution') + box('Headline: ' + (k.meta_ads?.facebook_problem_solution?.headline || '') + '\\n\\n' + (k.meta_ads?.facebook_problem_solution?.primary_text || '') + '\\n\\nCTA: ' + (k.meta_ads?.facebook_problem_solution?.cta || '')) +\n  sub('FB \\u2014 Social Proof') + box('Headline: ' + (k.meta_ads?.facebook_social_proof?.headline || '') + '\\n\\n' + (k.meta_ads?.facebook_social_proof?.primary_text || '')) +\n  sub('FB \\u2014 Urgency') + box('Headline: ' + (k.meta_ads?.facebook_urgency?.headline || '') + '\\n\\n' + (k.meta_ads?.facebook_urgency?.primary_text || '')) +\n  sub('IG \\u2014 Lifestyle') + box((k.meta_ads?.instagram_lifestyle?.caption || '') + '\\n\\n' + (k.meta_ads?.instagram_lifestyle?.hashtags || '')) +\n  sub('IG \\u2014 Transformation') + box((k.meta_ads?.instagram_transformation?.caption || '') + '\\n\\n' + (k.meta_ads?.instagram_transformation?.hashtags || '')) +\n  sub('IG Story') + box(k.meta_ads?.instagram_story) +\n  sub('Reel Script (30s)') + box('HOOK (0-3s): ' + (k.meta_ads?.reel_script_30s?.hook_3s || '') + '\\nBUILD (3-18s): ' + (k.meta_ads?.reel_script_30s?.build_15s || '') + '\\nREVEAL (18-26s): ' + (k.meta_ads?.reel_script_30s?.reveal_8s || '') + '\\nCTA (26-30s): ' + (k.meta_ads?.reel_script_30s?.cta_4s || '') + '\\n\\nON-SCREEN TEXT: ' + (k.meta_ads?.reel_script_30s?.on_screen_text || '') + '\\nTRENDING AUDIO: ' + (k.meta_ads?.reel_script_30s?.trending_audio_suggestion || ''))\n) +\n\n// Google Ads\nsection('\\u{1F50D} Google Ads', c.green,\n  sub('Search Ad 1') + box('Headlines: ' + ((k.google_ads?.search_ad_1?.headlines) || []).join(' | ') + '\\nDescriptions: ' + ((k.google_ads?.search_ad_1?.descriptions) || []).join(' | ')) +\n  sub('Search Ad 2') + box('Headlines: ' + ((k.google_ads?.search_ad_2?.headlines) || []).join(' | ') + '\\nDescriptions: ' + ((k.google_ads?.search_ad_2?.descriptions) || []).join(' | ')) +\n  sub('Shopping Title') + box(k.google_ads?.shopping_title) +\n  sub('Performance Max \\u2014 Headlines') + box(((k.google_ads?.performance_max_assets?.headlines) || []).map(h => '\\u2022 ' + h).join('\\n')) +\n  sub('Performance Max \\u2014 Descriptions') + box(((k.google_ads?.performance_max_assets?.descriptions) || []).map(h => '\\u2022 ' + h).join('\\n'))\n) +\n\n// Emails\nsection('\\u2709\\uFE0F 9-Email Persona-Aware Sequence', c.orange, emails || box('Sequence pending')) +\n\n// Social\nsection('\\u{1F4F1} Organic Social', c.purple,\n  sub('Instagram Carousel (5 slides)') + box(((k.social_organic?.instagram_carousel_5_slides) || []).map(s => 'Slide ' + s.slide + ': ' + s.headline + ' \\u2014 ' + s.copy + ' [Visual: ' + s.visual_direction + ']').join('\\n\\n')) +\n  sub('IG Feed Post') + box(k.social_organic?.instagram_feed_post) +\n  sub('Facebook Post') + box(k.social_organic?.facebook_post) +\n  sub('Twitter Thread') + box((k.social_organic?.twitter_thread_5_tweets || []).map((t,i) => (i+1) + '/ ' + t).join('\\n\\n')) +\n  sub('LinkedIn Founder Post') + box(k.social_organic?.linkedin_founder_post) +\n  sub('YouTube Short (60s)') + box(k.social_organic?.youtube_short_script_60s) +\n  sub('Pinterest Pin') + box(k.social_organic?.pinterest_pin_description)\n) +\n\n// WhatsApp\nsection('\\u{1F4AC} WhatsApp Campaigns', c.green,\n  sub('Broadcast') + box(k.whatsapp_campaigns?.broadcast_message) +\n  sub('Quick Share') + box(k.whatsapp_campaigns?.quick_share) +\n  sub('Abandoned Cart WhatsApp') + box(k.whatsapp_campaigns?.abandoned_cart_whatsapp) +\n  sub('Order Confirmation Template') + box(k.whatsapp_campaigns?.order_confirmation_template) +\n  sub('Post-Delivery Review Request') + box(k.whatsapp_campaigns?.post_delivery_review_request)\n) +\n\n// Influencer\nsection('\\u{1F31F} Influencer Program (3 tiers)', c.pink,\n  sub('Micro (<10k)') + box(k.influencer_program?.micro_influencer_pitch) +\n  sub('Mid-tier (10k-100k)') + box(k.influencer_program?.mid_tier_pitch) +\n  sub('Macro (100k+)') + box(k.influencer_program?.macro_pitch) +\n  sub('Content Brief') + box(k.influencer_program?.content_brief) +\n  sub('Shortlisted Archetypes') + box(((k.influencer_program?.shortlisted_influencer_archetypes) || []).map(a => '\\u2022 ' + a).join('\\n'))\n) +\n\n// PR\nsection('\\u{1F4F0} PR Assets', c.cyan,\n  sub('Press Release') + box(k.pr_assets?.press_release) +\n  sub('Journalist Pitch') + box(k.pr_assets?.journalist_pitch)\n) +\n\n// SEO\nsection('\\u{1F50E} SEO Pack', c.green,\n  sub('Primary Keywords') + box(((k.seo_pack?.primary_keywords) || []).join(', ')) +\n  sub('Long-tail Keywords') + box(((k.seo_pack?.long_tail_keywords) || []).join('\\n')) +\n  sub('Meta Title / Description') + box('Title: ' + (k.seo_pack?.meta_title || '') + '\\nDesc: ' + (k.seo_pack?.meta_description || '')) +\n  sub('Blog Post Outline') + box('Title: ' + (k.seo_pack?.blog_post_outline?.title || '') + '\\n\\nH2s:\\n' + ((k.seo_pack?.blog_post_outline?.h2s) || []).map(h => '\\u2022 ' + h).join('\\n')) +\n  sub('Schema Markup (JSON-LD)') + box(k.seo_pack?.schema_markup_json)\n) +\n\n// Conversion\nsection('\\u{1F3AF} Conversion Assets', c.orange,\n  sub('FAQ Page') + box(((k.conversion_assets?.faq_page) || []).map(f => 'Q: ' + f.question + '\\nA: ' + f.answer).join('\\n\\n')) +\n  sub('Return Policy') + box(k.conversion_assets?.return_policy) +\n  sub('Trust Badges') + box(((k.conversion_assets?.trust_badges_copy) || []).map(t => '\\u2022 ' + t).join('\\n')) +\n  sub('Upsell Copy') + box(k.conversion_assets?.upsell_copy) +\n  sub('Exit Intent Popup') + box(k.conversion_assets?.exit_intent_popup)\n) +\n\n// Multilingual\nsection('\\u{1F310} Multilingual (Hindi + Hinglish)', c.purple,\n  sub('Hindi') + box('Tagline: ' + (k.multilingual?.hindi?.tagline || '') + '\\n\\nInsta: ' + (k.multilingual?.hindi?.instagram_caption || '') + '\\n\\nWhatsApp: ' + (k.multilingual?.hindi?.whatsapp_message || '')) +\n  sub('Hinglish') + box('Tagline: ' + (k.multilingual?.hinglish?.tagline || '') + '\\n\\nInsta: ' + (k.multilingual?.hinglish?.instagram_caption || '') + '\\n\\nWhatsApp: ' + (k.multilingual?.hinglish?.whatsapp_message || ''))\n) +\n\n// A/B Test Variants\nsection('\\u{1F9EA} A/B Test Variants', c.cyan,\n  sub('Hero Headlines') + box(((k.ab_test_variants?.hero_headline) || []).map((h,i) => 'V' + (i+1) + ': ' + h).join('\\n')) +\n  sub('CTA Buttons') + box(((k.ab_test_variants?.cta_button) || []).map((h,i) => 'V' + (i+1) + ': ' + h).join('\\n')) +\n  sub('Price Anchors') + box(((k.ab_test_variants?.price_anchor) || []).map((h,i) => 'V' + (i+1) + ': ' + h).join('\\n'))\n) +\n\n// Image Gallery\nsection('\\u{1F3A8} AI-Generated Image Gallery (2 assets)', c.purple, imgGrid) +\n\n// Video Prompts\nsection('\\u{1F3AC} Video Prompts (for Veo / Hailuo / Kling)', c.pink,\n  (d.videoPrompts || []).map(v => '<div style=\"background:' + c.bg + ';border:1px solid ' + c.border + ';border-radius:6px;padding:10px;margin:6px 0;\"><div style=\"color:' + c.pink + ';font-size:11px;font-weight:700;\">\\u{1F3A5} ' + v.asset_name + ' (' + v.duration + ')</div><div style=\"color:' + c.gray + ';font-size:10px;margin:2px 0 4px;\">Platform: ' + v.platform + '</div><div style=\"color:' + c.light + ';font-size:11px;line-height:1.5;\">' + v.prompt + '</div></div>').join('')\n) +\n\n// Content Calendar\nsection('\\u{1F4C5} 30-Day Content Calendar', c.blue,\n  '<table style=\"width:100%;border-collapse:collapse;font-size:11px;\"><thead><tr style=\"background:' + c.bg + ';\"><th style=\"padding:6px;text-align:left;color:' + c.cyan + ';border-bottom:1px solid ' + c.border + ';\">Day</th><th style=\"padding:6px;text-align:left;color:' + c.cyan + ';border-bottom:1px solid ' + c.border + ';\">Platform</th><th style=\"padding:6px;text-align:left;color:' + c.cyan + ';border-bottom:1px solid ' + c.border + ';\">Type</th><th style=\"padding:6px;text-align:left;color:' + c.cyan + ';border-bottom:1px solid ' + c.border + ';\">Topic</th><th style=\"padding:6px;text-align:left;color:' + c.cyan + ';border-bottom:1px solid ' + c.border + ';\">Time</th></tr></thead><tbody>' +\n  ((k.content_calendar_30day) || []).slice(0,30).map(day => '<tr><td style=\"padding:5px;color:' + c.white + ';border-bottom:1px solid ' + c.border + ';\">' + day.day + '</td><td style=\"padding:5px;color:' + c.light + ';border-bottom:1px solid ' + c.border + ';\">' + day.platform + '</td><td style=\"padding:5px;color:' + c.light + ';border-bottom:1px solid ' + c.border + ';\">' + day.content_type + '</td><td style=\"padding:5px;color:' + c.gray + ';border-bottom:1px solid ' + c.border + ';\">' + day.topic + '</td><td style=\"padding:5px;color:' + c.orange + ';border-bottom:1px solid ' + c.border + ';\">' + day.best_time_ist + '</td></tr>').join('') +\n  '</tbody></table>'\n) +\n\n// UTM Links\nsection('\\u{1F517} UTM-Tagged Campaign URLs', c.green,\n  Object.entries(d.utm_links || {}).map(([key, url]) => '<div style=\"background:' + c.bg + ';border:1px solid ' + c.border + ';border-radius:4px;padding:8px;margin:4px 0;\"><div style=\"color:' + c.green + ';font-size:11px;font-weight:700;\">' + key.replace(/_/g,' ').toUpperCase() + '</div><div style=\"color:' + c.light + ';font-size:10px;word-break:break-all;\">' + url + '</div></div>').join('')\n) +\n\n// QA Report\nsection('\\u{1F6E1}\\uFE0F QA Report', c.orange,\n  sub('Scores') + box('Overall: ' + qa.overall_score + '/100\\nBrand Voice: ' + qa.brand_voice_consistency + '/10\\nCopywriting: ' + qa.copywriting_quality + '/10\\nPersona Alignment: ' + qa.persona_alignment + '/10\\nDifferentiation: ' + qa.competitor_differentiation + '/10\\nCTA Strength: ' + qa.call_to_action_strength + '/10') +\n  sub('Top Strengths') + box(((qa.top_3_strengths) || []).map(s => '\\u2705 ' + s).join('\\n')) +\n  sub('Improvement Areas') + box(((qa.top_3_improvements) || []).map(s => '\\u26A0\\uFE0F ' + s).join('\\n')) +\n  sub('Reviewer Notes') + box(qa.reviewer_notes)\n) +\n\n// Drive Folder\nsection('\\u{1F4C1} Asset Folder', c.cyan,\n  '<div style=\"background:' + c.bg + ';border:1px solid ' + c.border + ';border-radius:6px;padding:14px;text-align:center;\">' +\n  '<a href=\"' + (d.folderUrl || '#') + '\" style=\"display:inline-block;padding:10px 22px;background:' + c.blue + ';color:#fff;border-radius:6px;text-decoration:none;font-weight:700;font-size:13px;\">\\u{1F4C2} OPEN CAMPAIGN DRIVE FOLDER</a>' +\n  '<div style=\"color:' + c.gray + ';font-size:10px;margin-top:8px;\">' + (d.folderUrl || '') + '</div></div>'\n) +\n\n// Footer\n'<div style=\"text-align:center;padding:18px 0 4px;border-top:1px solid ' + c.border + ';margin-top:14px;\">' +\n'<p style=\"color:' + c.gray + ';font-size:10px;margin:0;\">Generated by ' + d.agencyName + ' \\u2022 Campaign ID ' + d.campaignId + ' \\u2022 ' + d.dateGenerated + '</p>' +\n'<p style=\"color:' + c.gray + ';font-size:10px;margin:4px 0 0;\">Powered by AI D2C Launch Kit PRO v2 (Multi-Agent Engine)</p>' +\n'</div>' +\n'</div></div>';\n\nreturn [{ json: { ...d, agentEmailHTML: html } }];\n"
+      },
+      "id": "a4f43e6d-bce0-4a4f-b298-0f7d5b97cd20",
+      "name": "\ud83d\udcdd Build Mega Agent Email",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        208,
+        64
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.agentEmail }}",
+        "subject": "={{ '\ud83d\ude80 [' + $json.campaignId + '] Launch Kit PRO Ready \u2014 ' + $json.productName + ' \u2022 QA: ' + $json.qa.overall_score + '/100' }}",
+        "message": "={{ $json.agentEmailHTML }}",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "4b0175aa-2e2a-4dad-91c9-c98f7c3964cf",
+      "name": "\ud83d\udce7 Send Mega Kit to Agent",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        432,
+        64
+      ],
+      "webhookId": "8be5e7ef-938c-491c-93aa-61a56ee377af",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Build executive brief for brand owner \u2014 board-grade, no operational clutter\nconst d = $('\ud83d\udcdd Build Mega Agent Email').first().json;\nconst intel = d.intel || {};\nconst qa = d.qa || {};\nconst imgs = d.imageGallery || [];\nconst c = { bg:'#f8fafc', card:'#ffffff', border:'#e2e8f0', primary:'#1e40af', accent:'#0891b2', green:'#059669', orange:'#ea580c', text:'#0f172a', muted:'#64748b' };\n\nconst metric = (label, value, color) => '<td style=\"width:25%;padding:12px 8px;text-align:center;background:' + c.bg + ';border-radius:8px;\"><div style=\"font-size:10px;color:' + c.muted + ';text-transform:uppercase;letter-spacing:0.6px;font-weight:700;\">' + label + '</div><div style=\"font-size:18px;color:' + color + ';font-weight:800;margin-top:4px;\">' + value + '</div></td>';\n\nconst channels = [\n  { name:'Product Descriptions', count:'6 versions', clr:c.primary },\n  { name:'Meta Ads (FB + IG)', count:'7 creatives', clr:c.primary },\n  { name:'Google Ads', count:'2 search + Pmax', clr:c.accent },\n  { name:'Email Sequence', count:'9 emails', clr:c.orange },\n  { name:'Organic Social', count:'7 platforms', clr:c.accent },\n  { name:'WhatsApp Campaigns', count:'5 templates', clr:c.green },\n  { name:'Influencer Program', count:'3 tiers', clr:c.orange },\n  { name:'PR Assets', count:'PR + pitch', clr:c.accent },\n  { name:'SEO Pack', count:'25 keywords', clr:c.green },\n  { name:'Conversion Assets', count:'FAQ, trust, upsell', clr:c.orange },\n  { name:'Multilingual', count:'EN + HI + Hinglish', clr:c.primary },\n  { name:'AI-Generated Images', count:imgs.filter(i => i.status === 'UPLOADED').length + '/2 assets', clr:c.primary },\n  { name:'Video Prompts', count:'3 reel scripts', clr:c.accent },\n  { name:'Content Calendar', count:'30 days', clr:c.green },\n  { name:'A/B Test Variants', count:'9 variants', clr:c.orange }\n];\n\nconst chHTML = channels.map(ch => '<tr><td style=\"padding:8px 12px;border-bottom:1px solid ' + c.border + ';\"><table style=\"width:100%;\"><tr><td><div style=\"width:8px;height:8px;background:' + ch.clr + ';border-radius:50%;display:inline-block;margin-right:8px;\"></div><span style=\"color:' + c.text + ';font-size:12px;font-weight:600;\">' + ch.name + '</span></td><td style=\"text-align:right;color:' + c.muted + ';font-size:11px;font-weight:600;\">' + ch.count + '</td></tr></table></td></tr>').join('');\n\nconst html = '<div style=\"background:' + c.bg + ';padding:24px;font-family:Segoe UI,Arial,sans-serif;max-width:720px;margin:0 auto;\">' +\n// Header\n'<div style=\"background:linear-gradient(135deg,#1e40af 0%,#1d4ed8 100%);padding:32px 24px;border-radius:12px 12px 0 0;text-align:center;\">' +\n'<div style=\"color:#bfdbfe;font-size:10px;font-weight:700;letter-spacing:2px;margin-bottom:8px;\">CAMPAIGN ' + d.campaignId + ' \u2022 EXECUTIVE BRIEF</div>' +\n'<h1 style=\"margin:0;color:#fff;font-size:24px;font-weight:900;\">Your Launch Engine Is Live</h1>' +\n'<p style=\"margin:10px 0 0;color:#dbeafe;font-size:15px;\">' + d.productName + ' \u2022 ' + d.brandName + '</p>' +\n'<div style=\"display:inline-block;margin-top:12px;padding:6px 14px;background:rgba(255,255,255,0.2);border-radius:14px;color:#fff;font-size:11px;font-weight:700;\">' + (qa.ready_to_deploy ? '\u2705 DEPLOYMENT READY' : '\u23f3 UNDER REVIEW') + ' \u2022 QA SCORE ' + (qa.overall_score || 'N/A') + '/100</div>' +\n'</div>' +\n'<div style=\"background:' + c.card + ';padding:24px;border-radius:0 0 12px 12px;border:1px solid ' + c.border + ';border-top:none;\">' +\n\n// Greeting\n'<p style=\"color:' + c.text + ';font-size:14px;line-height:1.7;margin:0 0 8px;\">Dear ' + d.ownerName + ',</p>' +\n'<p style=\"color:' + c.text + ';font-size:14px;line-height:1.7;margin:0 0 20px;\">Your complete product launch campaign has been prepared by ' + d.agencyName + ', powered by our multi-agent AI engine. Below is the executive brief.</p>' +\n\n// Projected Metrics dashboard\n'<div style=\"background:' + c.bg + ';border-radius:10px;padding:16px;margin:0 0 20px;\">' +\n'<div style=\"color:' + c.primary + ';font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;\">\ud83d\udcca Projected Month-1 Performance</div>' +\n'<table style=\"width:100%;border-collapse:separate;border-spacing:6px;\"><tr>' +\nmetric('Est. Revenue', (intel.projected_metrics?.month_1_revenue_estimate_inr || 'TBD').substring(0,12), c.primary) +\nmetric('Target CAC', (intel.projected_metrics?.target_cac || 'TBD').substring(0,12), c.accent) +\nmetric('Target AOV', (intel.projected_metrics?.target_aov || 'TBD').substring(0,12), c.green) +\nmetric('Target ROAS', (intel.projected_metrics?.target_roas || 'TBD').substring(0,12), c.orange) +\n'</tr></table></div>' +\n\n// Positioning\n'<div style=\"background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);border-radius:10px;padding:16px;margin:0 0 20px;border-left:4px solid ' + c.primary + ';\">' +\n'<div style=\"color:' + c.primary + ';font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;\">\ud83c\udfaf Your Market Positioning</div>' +\n'<p style=\"color:' + c.text + ';font-size:14px;line-height:1.7;margin:0;font-weight:600;font-style:italic;\">\"' + (intel.positioning_statement || 'TBD') + '\"</p>' +\n'</div>' +\n\n// Channels\n'<div style=\"background:' + c.bg + ';border-radius:10px;padding:16px;margin:0 0 20px;\">' +\n'<div style=\"color:' + c.primary + ';font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;\">\ud83d\udce3 15 Marketing Channels Activated</div>' +\n'<table style=\"width:100%;border-collapse:collapse;\">' + chHTML + '</table></div>' +\n\n// Drive Folder CTA\n'<div style=\"background:linear-gradient(135deg,#1e40af 0%,#0891b2 100%);border-radius:10px;padding:20px;text-align:center;margin:0 0 20px;\">' +\n'<div style=\"color:#fff;font-size:13px;font-weight:700;margin-bottom:10px;\">\ud83d\udcc2 ALL CAMPAIGN ASSETS</div>' +\n'<a href=\"' + (d.folderUrl || '#') + '\" style=\"display:inline-block;padding:12px 28px;background:#fff;color:' + c.primary + ';border-radius:6px;text-decoration:none;font-weight:800;font-size:13px;\">OPEN GOOGLE DRIVE FOLDER</a>' +\n'<div style=\"color:#dbeafe;font-size:10px;margin-top:8px;\">2 AI-generated images \u2022 All copy assets \u2022 Ready to deploy</div></div>' +\n\n// Timeline\n'<div style=\"background:' + c.bg + ';border-radius:10px;padding:16px;margin:0 0 20px;\">' +\n'<div style=\"color:' + c.green + ';font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;\">\ud83d\udcc5 Your Launch Timeline</div>' +\n'<table style=\"width:100%;border-collapse:collapse;\">' +\n'<tr><td style=\"padding:8px 0;color:' + c.text + ';font-size:12px;\"><b style=\"color:' + c.primary + ';\">Today</b> \u2014 Final approval & creative review</td></tr>' +\n'<tr><td style=\"padding:8px 0;color:' + c.text + ';font-size:12px;\"><b style=\"color:' + c.primary + ';\">Day 1-2</b> \u2014 Ad campaigns go live (Meta + Google)</td></tr>' +\n'<tr><td style=\"padding:8px 0;color:' + c.text + ';font-size:12px;\"><b style=\"color:' + c.primary + ';\">Day 3</b> \u2014 Pre-launch email teaser deployed</td></tr>' +\n'<tr><td style=\"padding:8px 0;color:' + c.text + ';font-size:12px;\"><b style=\"color:' + c.primary + ';\">Day 5-7</b> \u2014 Influencer outreach & PR pitch</td></tr>' +\n'<tr><td style=\"padding:8px 0;color:' + c.text + ';font-size:12px;\"><b style=\"color:' + c.primary + ';\">Week 2</b> \u2014 Full 30-day content calendar activated</td></tr>' +\n'<tr><td style=\"padding:8px 0;color:' + c.text + ';font-size:12px;\"><b style=\"color:' + c.primary + ';\">Weekly</b> \u2014 Performance reports & A/B test results</td></tr>' +\n'</table></div>' +\n\n// Agent contact card\n'<div style=\"border-top:1px solid ' + c.border + ';padding-top:16px;margin-top:16px;\">' +\n'<table style=\"width:100%;\"><tr><td style=\"width:50px;vertical-align:top;\"><div style=\"width:46px;height:46px;background:' + c.primary + ';border-radius:50%;text-align:center;line-height:46px;color:#fff;font-size:18px;font-weight:900;\">' + d.agentName.charAt(0).toUpperCase() + '</div></td><td style=\"vertical-align:top;padding-left:12px;\">' +\n'<div style=\"color:' + c.primary + ';font-size:14px;font-weight:800;\">' + d.agentName + '</div>' +\n'<div style=\"color:' + c.muted + ';font-size:11px;\">' + d.agencyName + ' \u2022 Campaign Lead</div>' +\n'<div style=\"color:' + c.text + ';font-size:11px;margin-top:4px;\">\u2709\ufe0f ' + d.agentEmail + '</div>' +\n'</td></tr></table></div>' +\n\n'</div></div>';\n\nreturn [{ json: { ...d, ownerEmailHTML: html } }];\n"
+      },
+      "id": "9d624b1f-a1fa-4e3c-b274-2df86f37b777",
+      "name": "\ud83d\udcdd Build Executive Owner Brief",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        656,
+        64
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.ownerEmail }}",
+        "subject": "={{ '\ud83d\ude80 ' + $json.productName + ' Launch Campaign Ready \u2014 Executive Brief [' + $json.campaignId + ']' }}",
+        "message": "={{ $json.ownerEmailHTML }}",
+        "options": {
+          "appendAttribution": false,
+          "replyTo": "={{ $json.agentEmail }}"
+        }
+      },
+      "id": "848cb5f6-522a-4938-abdc-a9e80e0d39b8",
+      "name": "\ud83d\udce7 Send Executive Brief to Owner",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        880,
+        64
+      ],
+      "webhookId": "b5882035-26cc-432c-8d58-e1b62f64ad62",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// ===== STAGE 3: Build cinematic image generation prompts =====\nconst d = $input.first().json;\nconst aesthetic = d.visualAesthetic || 'Lifestyle';\nconst color = d.brandColor || '#2563EB';\nconst voice = d.brandVoice || 'Friendly';\n\n// Style guidance map\nconst aestheticPrompts = {\n  'Minimalist': 'minimalist composition, soft natural daylight, white background with subtle pastel accents, clean negative space, Glossier-inspired aesthetic, shot on Hasselblad',\n  'Earthy': 'botanical organic styling, natural wood and stone surfaces, soft morning light, dried herbs and leaves as props, earthy color palette, sustainable packaging visible',\n  'Bold': 'vibrant gradient backdrop, dynamic studio lighting, saturated colors, bold geometric shapes, energetic composition, fashion editorial style',\n  'Luxe': 'dark moody backdrop, dramatic golden rim light, marble and brass surfaces, premium black packaging, low-key cinematic lighting, luxury magazine aesthetic',\n  'Indian heritage': 'handcrafted textile backdrop, brass and copper props, marigold petals, traditional Indian patterns, warm spice-toned palette, heritage craft aesthetic',\n  'Clinical': 'crisp white laboratory setting, scientific glassware, blue accent lighting, clean precise composition, medical journal photography style',\n  'Lifestyle': 'real-world environment, candid lifestyle moment, soft golden hour light, natural skin tones, aspirational yet relatable, Indian metro home context'\n};\n\nconst aestheticKey = Object.keys(aestheticPrompts).find(k => aesthetic.toLowerCase().includes(k.toLowerCase())) || 'Lifestyle';\nconst styleClause = aestheticPrompts[aestheticKey];\n\nconst baseSubject = d.productName + ' (' + d.category + ') \u2014 ' + d.productDesc.substring(0, 200);\n\n// Build 2 high-impact image prompts (free tier safe: 2 images/min limit)\nconst imagePrompts = [\n  {\n    asset_name: '01_hero_product_shot',\n    use_case: 'Website hero banner / Amazon main image',\n    prompt: 'Ultra-premium product photography of ' + baseSubject + '. ' + styleClause + '. Product perfectly centered, sharp focus, 8K resolution, professional commercial photography. Brand accent color: ' + color + '. No text. Square 1:1 format.',\n    dimensions: '1080x1080',\n    platform: 'Website, Amazon, Flipkart'\n  },\n  {\n    asset_name: '02_lifestyle_hero',\n    use_case: 'Instagram feed / Facebook ad creative',\n    prompt: 'Lifestyle photograph featuring ' + baseSubject + ' being used naturally by an Indian person from the target demographic (' + d.targetAudience.substring(0,80) + '). ' + styleClause + '. Authentic candid moment, soft natural lighting, aspirational Indian metro/Tier 1 home or location. Brand color accents: ' + color + '. No text. 4:5 vertical format.',\n    dimensions: '1080x1350',\n    platform: 'Instagram, Facebook'\n  }\n];\n\n// Also build video prompts for Veo / Hailuo / Kling\nconst reelScript = d.kit?.meta_ads?.reel_script_30s || {};\nconst videoPrompts = [\n  {\n    asset_name: 'reel_15s_hook',\n    platform: 'Veo 3 / Hailuo / Kling AI',\n    duration: '15 seconds',\n    prompt: 'Cinematic 15-second product reel for ' + d.productName + '. ' + styleClause + '. Opening 3-second hook: ' + (reelScript.hook_3s || 'attention-grabbing visual of product transformation') + '. Camera: dynamic handheld with one cinematic zoom-in on product. Mood: ' + voice + '. End frame: product centered with brand color ' + color + ' accent. No text overlays \u2014 they will be added in post.',\n  },\n  {\n    asset_name: 'reel_30s_full',\n    platform: 'Veo 3 / Hailuo / Kling AI',\n    duration: '30 seconds',\n    prompt: 'Full 30-second product launch reel for ' + d.productName + ' by ' + d.brandName + '. Story arc: hook (3s) \u2192 problem (7s) \u2192 product reveal (10s) \u2192 benefit demo (7s) \u2192 CTA frame (3s). ' + styleClause + '. Target: ' + d.targetAudience.substring(0,100) + '. Soundtrack: trending Indian audio. End on product with brand color ' + color + '.',\n  },\n  {\n    asset_name: 'ad_6s_bumper',\n    platform: 'Veo 3 / Hailuo / Kling AI',\n    duration: '6 seconds',\n    prompt: 'Ultra-punchy 6-second YouTube bumper ad for ' + d.productName + '. Single sharp message, product hero shot, brand color ' + color + ' burst, CTA frame. ' + styleClause + '. No dialogue, music-driven.',\n  }\n];\n\nreturn [{ json: { ...d, imagePrompts, videoPrompts } }];\n"
+      },
+      "id": "bcd5cbad-cacb-45fa-93f5-f6b7895c294c",
+      "name": "\ud83c\udfa8 Build Image Prompts",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2032,
+        -32
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: \"gpt-4o-mini\",\n  max_tokens: 1000,\n  messages: [\n    {\n      role: \"system\",\n      content: \"You are a conversion rate optimization expert. Return only valid JSON, no markdown.\"\n    },\n    {\n      role: \"user\",\n      content: \"Product: \" + $json.productName + \" by \" + $json.brandName + \", Price: \" + $json.price + \", USPs: \" + $json.usps + \". Generate 3 A/B test variants for hero ad copy. Return JSON: {\\\"ab_tests\\\": [{\\\"variant\\\": \\\"A\\\", \\\"headline\\\": \\\"...\\\", \\\"hook\\\": \\\"...\\\", \\\"cta\\\": \\\"...\\\", \\\"predicted_ctr\\\": \\\"...\\\", \\\"reasoning\\\": \\\"...\\\"}], \\\"recommended_variant\\\": \\\"A\\\", \\\"reasoning\\\": \\\"...\\\"}\"\n    }\n  ]\n}) }}",
+        "options": {}
+      },
+      "id": "657544e0-c126-4858-af1c-8b49031afe58",
+      "name": "\ud83e\uddea AB Test Generator",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        208,
+        -128
+      ],
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Query Auth account"
+        },
+        "openAiApi": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "OpenAI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $input.first().json;\nlet text = \"\";\ntry {\n  text = input.candidates[0].content.parts[0].text;\n} catch (e) {}\n\nlet abData = {};\ntry {\n  const cleanedText = text.replace(/```json\\n?|\\n?```/g, '').trim();\n  abData = JSON.parse(cleanedText);\n} catch (error) {}\n\nreturn [{\n  json: {\n    ...input,\n    abTests: abData.ab_tests || [],\n    recommendedVariant: abData.recommended_variant || \"\"\n  }\n}];"
+      },
+      "id": "c68ea816-2e16-4c0b-82aa-f16340c3652a",
+      "name": "\ud83d\udd00 Parse AB Tests",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        432,
+        -128
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: \"gpt-4o-mini\",\n  max_tokens: 1000,\n  messages: [\n    { role: \"system\", content: \"You are an expert Hindi copywriter for Indian D2C brands. Return only valid JSON, no markdown.\" },\n    { role: \"user\", content: \"Product: \" + $json.productName + \", Brand: \" + $json.brandName + \", Price: \" + $json.price + \". Return JSON: {\\\"hindi_tagline\\\": \\\"...\\\", \\\"hindi_hero_headline\\\": \\\"...\\\", \\\"hindi_whatsapp\\\": \\\"...\\\", \\\"hindi_instagram_caption\\\": \\\"...\\\", \\\"hindi_cta\\\": \\\"...\\\", \\\"hindi_usp_bullets\\\": [\\\"...\\\", \\\"...\\\", \\\"...\\\"]}\" }\n  ]\n}) }}",
+        "options": {}
+      },
+      "id": "950e37dc-656a-4a35-9444-35808211f0cd",
+      "name": "\ud83c\udf10 Hindi Translation Agent",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        656,
+        -128
+      ],
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Query Auth account"
+        },
+        "openAiApi": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "OpenAI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $input.first().json;\nlet text = \"\";\ntry {\n  text = input.candidates[0].content.parts[0].text;\n} catch (e) {}\n\nlet hindiData = {};\ntry {\n  const cleanedText = text.replace(/```json\\n?|\\n?```/g, '').trim();\n  hindiData = JSON.parse(cleanedText);\n} catch (error) {}\n\nreturn [{\n  json: {\n    ...input,\n    hindiAssets: hindiData\n  }\n}];"
+      },
+      "id": "77a50aad-18f3-48f4-82cd-0f6c017c85ee",
+      "name": "\ud83d\udd00 Parse Hindi Assets",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        880,
+        -128
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: \"gpt-4o-mini\",\n  max_tokens: 1000,\n  messages: [\n    { role: \"system\", content: \"You are a WhatsApp commerce strategist for Indian D2C brands. Return only valid JSON, no markdown.\" },\n    { role: \"user\", content: \"Product: \" + $json.productName + \", Brand: \" + $json.brandName + \", Price: \" + $json.price + \", USPs: \" + $json.usps + \", Target: \" + $json.targetAudience + \". Return JSON: {\\\"welcome_message\\\": \\\"...\\\", \\\"product_showcase\\\": \\\"...\\\", \\\"objection_handlers\\\": [{\\\"objection\\\": \\\"Too expensive\\\", \\\"response\\\": \\\"...\\\"}, {\\\"objection\\\": \\\"Does it work?\\\", \\\"response\\\": \\\"...\\\"}], \\\"order_capture_flow\\\": [\\\"...\\\", \\\"...\\\", \\\"...\\\"], \\\"upi_payment_message\\\": \\\"...\\\", \\\"post_purchase_message\\\": \\\"...\\\", \\\"broadcast_template\\\": \\\"...\\\"}\" }\n  ]\n}) }}",
+        "options": {}
+      },
+      "id": "33736705-3825-43c6-ad58-ce3d7221c523",
+      "name": "\ud83d\udcac WhatsApp Commerce Agent",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        1104,
+        -128
+      ],
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "Query Auth account"
+        },
+        "openAiApi": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "OpenAI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $input.first().json;\nlet text = \"\";\ntry {\n  text = input.candidates[0].content.parts[0].text;\n} catch (e) {}\n\nlet whatsappData = {};\ntry {\n  const cleanedText = text.replace(/```json\\n?|\\n?```/g, '').trim();\n  whatsappData = JSON.parse(cleanedText);\n} catch (error) {}\n\nreturn [{\n  json: {\n    ...input,\n    whatsappFlow: whatsappData\n  }\n}];"
+      },
+      "id": "8f065328-af64-4c00-9bfb-0664fd622070",
+      "name": "\ud83d\udd00 Parse WhatsApp Flow",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1328,
+        -128
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "\ud83d\udccb Launch Intake Form": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd27 Parse + Enrich + Campaign ID + UTM",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd27 Parse + Enrich + Campaign ID + UTM": {
+      "main": [
+        [
+          {
+            "node": "\ud83e\udde0 AGENT 1: Market Intelligence",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\udde0 AGENT 1: Market Intelligence": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Parse Market Intel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Parse Market Intel": {
+      "main": [
+        [
+          {
+            "node": "\u270d\ufe0f AGENT 2: Senior Copywriter (60+ assets)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u270d\ufe0f AGENT 2: Senior Copywriter (60+ assets)": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Parse Copy Kit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Parse Copy Kit": {
+      "main": [
+        [
+          {
+            "node": "\ud83c\udfa8 Build Image Prompts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83c\udfd7\ufe0f Create Campaign Drive Folder": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcc1 Stage Folder ID",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcc1 Stage Folder ID": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd02 Split: 2 Images",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd02 Split: 2 Images": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\uddbc\ufe0f AGENT 3: Gemini 2.5 Image Gen",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\uddbc\ufe0f AGENT 3: Gemini 2.5 Image Gen": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd0d Extract Image Binary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd0d Extract Image Binary": {
+      "main": [
+        [
+          {
+            "node": "\u2601\ufe0f Upload Image to Drive",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u2601\ufe0f Upload Image to Drive": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce6 Aggregate Image Gallery",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce6 Aggregate Image Gallery": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udee1\ufe0f AGENT 4: QA Reviewer",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udee1\ufe0f AGENT 4: QA Reviewer": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Parse QA Result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Parse QA Result": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcdd Build Mega Agent Email",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "\ud83e\uddea AB Test Generator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcdd Build Mega Agent Email": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Send Mega Kit to Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce7 Send Mega Kit to Agent": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcdd Build Executive Owner Brief",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcdd Build Executive Owner Brief": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Send Executive Brief to Owner",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83c\udfa8 Build Image Prompts": {
+      "main": [
+        [
+          {
+            "node": "\ud83c\udfd7\ufe0f Create Campaign Drive Folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\uddea AB Test Generator": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Parse AB Tests",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Parse AB Tests": {
+      "main": [
+        [
+          {
+            "node": "\ud83c\udf10 Hindi Translation Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83c\udf10 Hindi Translation Agent": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Parse Hindi Assets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Parse Hindi Assets": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcac WhatsApp Commerce Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcac WhatsApp Commerce Agent": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Parse WhatsApp Flow",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Parse WhatsApp Flow": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Log to Master Sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false,
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "versionId": "YOUR_VERSION_ID",
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "id": "YOUR_WORKFLOW_ID",
+  "tags": []
+}
