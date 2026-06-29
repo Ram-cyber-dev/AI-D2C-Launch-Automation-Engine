@@ -52,7 +52,6 @@ Build Owner Brief → Send to Owner
 | CRM Logging | Google Sheets |
 | Email Delivery | Gmail API |
 
----
 
 ## 🚀 Key Features
 
@@ -66,7 +65,6 @@ Build Owner Brief → Send to Owner
 - **QA Gate** — deploy readiness scored before delivery
 - **Error resilience** — fallbacks at every AI parsing stage
 
----
 
 ## 💡 Zero-Cost Optimization
 
@@ -80,7 +78,6 @@ Replaced:
 
 **Total cost: ₹0. Time: 90 seconds.**
 
----
 
 ## 🔧 Setup
 
