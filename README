@@ -1,9 +1,6 @@
 # 🚀 AI D2C Launch Kit PRO — Multi-Agent Production Engine
-### Week 12 — Haus of Intelligence Cohort
 
 An end-to-end n8n automation with 4 AI agents that converts one product form submission into a complete D2C launch campaign in 90 seconds.
-
----
 
 ## 🎯 What It Does
 
@@ -17,8 +14,6 @@ Takes a single product launch form and automatically generates:
 - **WhatsApp Commerce Bot** — complete sales flow with objection handlers and UPI payment
 - **Dual email delivery** — mega kit to agent + executive brief to brand owner
 - **Google Sheets CRM** — every campaign logged automatically
-
----
 
 ## 🤖 4 AI Agents
 
@@ -100,16 +95,17 @@ Replaced:
 4. Create Google Drive folder: `AI Launch Kits` (parent folder for campaigns)
 5. Add columns to sheet: Product, Brand, Category, Price, Launch Offer, Available On, Owner, Owner Email, Campaign ID, QA Score, Drive Folder, Positioning, Market Size, Projected M1 Revenue, Target CAC, Target ROAS, Images Generated, Languages, Brand Voice, Budget, Launch Date, Status, Generated At
 
----
 
 ## 🎬 Demo Product
 
 **GlowVeda Vitamin C Serum** — 20% stabilised Vitamin C, ₹699 MRP, targeting women 22-38 in metro India. Competitors: Minimalist, The Derma Co, Plum.
 
----
 
 ## 👤 Author
 
-**Ram** — AI Automation Agency founder  
-Building done-for-you AI systems for D2C brands and service businesses  
+Built by Ram
+Founder, MissedCallRecovery.org — AI voice receptionist 
+platform for US plumbing and HVAC businesses 
+Building done-for-you AI systems for D2C brands and service businesses
+Available for freelance AI automation projects 
 [GitHub](https://github.com/Ram-cyber-dev)
