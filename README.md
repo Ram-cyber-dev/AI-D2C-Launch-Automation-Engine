@@ -55,7 +55,7 @@ Build Owner Brief → Send to Owner
 
 ## 🚀 Key Features
 
-- **27 nodes** — most comprehensive workflow in the cohort
+- **27 nodes** — 4 AI agents in sequence with parallel processing
 - **4 AI agents** in sequence — each feeds the next
 - **Campaign ID + UTM** auto-generated for every launch
 - **Google Drive folder** per campaign — organized, shareable, permanent
